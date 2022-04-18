@@ -1,9 +1,11 @@
+
 //! конкретный пример
 /*
 let sum = function(a, b) {
    return a + b
 };
 */
+/*
 let sum = (a, b) => a + b;
 alert(sum(1, 2));
 //! Если аргументов нет, круглые скобки будут пустыми, но они должны присутствовать:
@@ -39,6 +41,7 @@ ask(
    function() { alert("Вы согласились.");},
    function() { alert("Вы отменили выполнение.");}
 );
+*/
 */
 function ask (question, yes, no) {
    if (confirm(question)) yes()
